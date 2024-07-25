@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.Dashboard .header {
+    background-color: #2c2c2c; /* Dark background */
+    color: #fff; /* White text */
+    /* padding: 20px;
+    text-align: center; */
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.rectangle {
+    background-color: #2c2c2c; /* Darker rectangle */
+    display: flex;
+    justify-content: space-around;
+    padding: 120px; /* Add padding inside the rectangle */
+    margin: 5% auto; /* Center the rectangle */
+    width: 60%;
+    border-radius: 8px; /* Rounded corners */
+}
+
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 50px 50px; /* Increase button padding */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 30px; /* Increase font size */
+    border-radius: 4px; /* Rounded button corners */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

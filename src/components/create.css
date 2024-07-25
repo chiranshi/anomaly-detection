@@ -1,0 +1,61 @@
+.profile-creation {
+    margin-top: 20px;
+  }
+  
+  .profile-creation form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-creation form label {
+    margin-bottom: 5px;
+  }
+  
+  .profile-creation form input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .profile-creation form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profile-creation form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #profile-table {
+    margin-top: 20px;
+  }
+  
+  #profile-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #profile-table th, #profile-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #profile-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #save-profile-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #save-profile-btn:hover {
+    background-color: #218838;
+  }
+  

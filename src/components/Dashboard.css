@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Dashboard .sidebar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    float: left;
+}
+
+.Dashboard .sidebar.closed {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Dashboard .content {
+    margin-left: 220px;
+    padding: 0px 20px 0px 20px;
+    transition: margin-left 0.3s ease;
+    flex-grow: 1;
+}
+
+
+.Dashboard .content.shift {
+    margin-left: 0;
+}
+
+.Dashboard .header {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.Dashboard .header .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.Dashboard .header .title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.Dashboard .header .sign-out {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.Dashboard .dropdown {
+    background-color: #444;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+    
+}
+
+.Dashboard .dropdown:hover {
+    background-color: #555;
+}
+
+.Dashboard .dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.Dashboard .dropdown-list.open {
+    display: block;
+}
+
+.Dashboard .dropdown-list.closed {
+    display: none;
+}
+
+.Dashboard .dropdown-list li {
+    padding: 10px;
+    background-color: #555;
+    border-top: 1px solid #666;
+    transition: background-color 0.3s ease;
+}
+
+.Dashboard .dropdown-list li:hover {
+    background-color: #666;
+}
+
+.Dashboard .dropdown-list .dropdown-list {
+    padding-left: 20px;
+    background-color: #444;
+}
+
+.Dashboard button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Dashboard button.selected {
+    background-color: #007BFF;
+    color: white;
+}
+
+.success {
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#previewTable{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+.image-container{
+   
+    padding: 0px;
+    border-radius: 5px;
+   
+}
+  
+.logo{
+    width:100%;
+    display: flex;
+    object-fit: contain;
+    }
+
+.file-upload-container{
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.file-upload-container input[type=text]{
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+#sampleFile
+    {
+        background-color: #ffcc00;
+        color: black;
+        padding: 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 30%;
+        margin-right:70%;
+        
+      }
+      .Dashboard .dropdown select {
+        margin-left: 10px;
+        color: black;
+        width: 100px;
+        
+    }
+
+    .Dashboard .fa-fa{
+        margin-left: 8px;
+    }
